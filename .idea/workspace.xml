@@ -15,6 +15,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,6 +27,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1e2W1HOBRKX48gvheYfsjoqkyD7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="flattenModules" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,6 +41,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/03-search/src/main/resources" />
@@ -221,7 +226,7 @@
       <workItem from="1593523838426" duration="20679000" />
       <workItem from="1593572706446" duration="458000" />
       <workItem from="1593573265836" duration="498000" />
-      <workItem from="1593573903627" duration="25392000" />
+      <workItem from="1593573903627" duration="25651000" />
     </task>
     <servers />
   </component>
