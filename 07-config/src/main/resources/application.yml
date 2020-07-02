@@ -1,0 +1,17 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://root:root@localhost:8761/eureka, http://root:root@localhost:8762/eureka
+
+spring:
+  application:
+    name: CONFIG
+
+  cloud:
+    config:
+      server:
+        git:
+          basedir: D:\basedir #本地仓库的地址
+          username: #远程仓库的name
+          password: #远程仓库的密码
+          uri: #远程仓库的地址

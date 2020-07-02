@@ -1,0 +1,19 @@
+server:
+  port: 8762
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    #单机版的时候配置为false，集群要打开
+    registerWithEureka: true   #注册到eureka上
+    fetchRegistry: true        #从eureka拉取信息
+    serviceUrl:
+      #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://root:root@localhost:8761/eureka
+
+spring:
+  security:
+    user:
+      name: root
+      password: root

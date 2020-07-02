@@ -1,0 +1,21 @@
+#制定eureka服务的地址
+eureka:
+  client:
+    service-url:
+        defaultZone: http://root:root@localhost:8761/eureka,http://root:root@localhost:8762/eureka
+
+
+# 制定服务名称
+spring:
+  application:
+    name: CUSTOMER
+
+#制定负载均衡策略
+users:        #编写服务名称
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.WeightedResponseTimeRule    #策略
+
+#feign和hystrix的组合
+feign:
+  hystrix:
+    enabled: true
