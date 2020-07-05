@@ -1,4 +1,4 @@
-![add image](https://github.com/lwei20000/springcloud/raw/master/image/*.png)
+![add image](https://github.com/lwei20000/springcloud/raw/master/springcloud.assets/*.png)
 
 # SpringCloud入门手册
 
